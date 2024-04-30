@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    background-color: black;
+}
+
+.DarkMountain {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%
+}
+
+.DarkMountain {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2ms infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateX(20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateX(20px); }
+}
