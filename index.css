@@ -111,3 +111,11 @@ h1, h2 {
         padding: 1vh 2vw 1vh 2vw
     }
 }
+
+/* Index2 */
+
+.Intro {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
