@@ -2,11 +2,13 @@ html,
 body {
     height: 100%;
     background-color: black;
+    font-family: Garamond;
 
 }
 
 h1, h2 {
     color: white;
+    font-family: Garamond;
 }
 
 
@@ -112,6 +114,19 @@ h1, h2 {
     }
 }
 
+.Profile {
+    animation: horizontal-shaking .5s infinite;
+
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+   }
+
 /* Index2 */
 
 .Intro {
@@ -119,3 +134,15 @@ h1, h2 {
   align-items: center;
   justify-content: center;
 }
+
+/* Index3 */
+
+.SkillCartPara {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+}
+
+/* Resume */
