@@ -243,3 +243,12 @@ h2 {
     position: absolute;
     left: 400px;
 }
+
+.Resume {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+}
